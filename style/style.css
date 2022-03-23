@@ -24,6 +24,12 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
 /* --------------- */
 
 
@@ -33,8 +39,16 @@ header{
 }
 
 /* Nav */
+.navigation{
+    background-color: rgb(49, 97, 224);
+}
+
 nav ul li{
     display: inline-block;
+    vertical-align: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
 }
 
 .col-left .col-right{
@@ -43,15 +57,28 @@ nav ul li{
 
 .col-left{
     margin-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
     float: left;
 }
 
 .col-right{
     margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: white;
     float: right;
 }
 
 .col-mid{
+    display: inline-block;
     width: 70%;
+    padding-top: 20px;
     margin: auto;
 }
+/* End Nav */
+
+
+
