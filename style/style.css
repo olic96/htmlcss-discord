@@ -4,23 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* ----------------------- */
 
 /* Commons */
-.container{
-    max-width: 1200px;
-    margin: auto;
-}
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
 
-.debug{
-    background-color: red;
-}
-
-/* ---------------- */
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -36,11 +28,50 @@ a{
 /* Header */
 header{
     text-align: center;
+    width: 100%;
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
 }
+
+.hero{
+    color: white;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+.download, .open{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 100px;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.download{
+    background-color: white;
+    color: black;
+}
+
+.open{
+    background-color: rgb(35, 42, 39);
+}
+/* ------------------------------------ */
 
 /* Nav */
 .navigation{
-    background-color: rgb(49, 97, 224);
+    background-color: transparent;
+    max-width: 1200px;
+    margin: auto;
 }
 
 nav ul li{
@@ -78,7 +109,7 @@ nav ul li{
     padding-top: 20px;
     margin: auto;
 }
-/* End Nav */
+/* -------------------------*/
 
 
 
