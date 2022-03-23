@@ -16,3 +16,42 @@
     clear: both;
 }
 
+.debug{
+    background-color: red;
+}
+
+/* ---------------- */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* --------------- */
+
+
+/* Header */
+header{
+    text-align: center;
+}
+
+/* Nav */
+nav ul li{
+    display: inline-block;
+}
+
+.col-left .col-right{
+    width: 15%;
+}
+
+.col-left{
+    margin-right: 20px;
+    float: left;
+}
+
+.col-right{
+    margin-left: 20px;
+    float: right;
+}
+
+.col-mid{
+    width: 70%;
+    margin: auto;
+}
